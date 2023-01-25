@@ -6,18 +6,58 @@
 
 /* background-color-2 #FFF1EB*/
 
-html {
-    scroll-behavior: smooth;
-}
 
-body {
-    background-color: #FFFF;
+body, html {
+    height: 100%;
+    margin: 0;
+    background-color: #f6f1ef;
     font-family: 'IBM Plex Mono', monospace;
     font-style: normal;
     color: #AE7F68;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
+}
+
+
+.nav-items-1 {
+    border: 1px solid #AE7F68;
+    color: #AE7F68;
+    font-weight: 500;
+    font-size: 1.4em;
+}
+
+.nav-items-2 {
+    
+    border: 1px solid #AE7F68;
+    color: #AE7F68;
+    font-weight: 500;
+    font-size: 1.4em;
+}
+
+.nav-items-3 {
+    
+    border: 1px solid #AE7F68;
+    color: #AE7F68;
+    font-weight: 500;
+    font-size: 1.4em;
+}
+
+.nav-items-1:hover , .nav-items-2:hover , .nav-items-3:hover {
+    color: #7E4E3A;
+    background-color: #FFFF;
+}
+
+
+.content-headline.container-fluid {
+    padding-top: 15.75rem;
+    padding-bottom: 15.75rem;
+}
+
+.content-aboutme {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    
+}
+.content-workspaces {
+    padding-bottom: 10rem;
 }
 
 
@@ -25,5 +65,11 @@ body {
     color: #7E4E3A;
 }
 
+.img-aboutme {
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    border-radius: 0.38rem;
+}
 
 
