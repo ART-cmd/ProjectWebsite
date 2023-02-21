@@ -10,7 +10,7 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="snap-y snap-mandatory transition-all duration-500 dark:bg-gray-900">
+    <div className="scroll-smooth snap-y snap-mandatory duration-300 dark:bg-gray-900">
       <Navbar />
       <Hero className="snap-center" />
       <About className="snap-center" />
